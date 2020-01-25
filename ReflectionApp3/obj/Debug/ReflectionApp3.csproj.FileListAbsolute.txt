@@ -1,1 +1,5 @@
 D:\AdemAKKUS\Uygulamalar\Hafta17\ReflectionApp3\ReflectionApp3\bin\Debug\ReflectionApp3.exe.config
+D:\AdemAKKUS\Uygulamalar\Hafta17\ReflectionApp3\ReflectionApp3\bin\Debug\ReflectionApp3.exe
+D:\AdemAKKUS\Uygulamalar\Hafta17\ReflectionApp3\ReflectionApp3\bin\Debug\ReflectionApp3.pdb
+D:\AdemAKKUS\Uygulamalar\Hafta17\ReflectionApp3\ReflectionApp3\obj\Debug\ReflectionApp3.exe
+D:\AdemAKKUS\Uygulamalar\Hafta17\ReflectionApp3\ReflectionApp3\obj\Debug\ReflectionApp3.pdb

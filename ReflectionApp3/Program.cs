@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,16 @@ namespace ReflectionApp3
     {
         static void Main(string[] args)
         {
+                Type type = typeof(Person);
+                var constructor = type.GetConstructor(new Type[] { typeof(int), typeof(string), typeof(string) });
+                Person person = (Person)constructor.Invoke(new object[] { 1, "Adem", "AKKUŞ" });
+                Console.WriteLine("Reflection yardımıyla kurulan Person nesnesinin bilgileri \n {0}",person.KisiBilgileriniGetir());
+                Console.WriteLine("-----------");
+                var fields = type.GetFields(BindingFlags.Instance|BindingFlags.NonPublic );  //using System.Reflection; ekle
+                foreach (var field in fields)
+                {
+                    Console.WriteLine(field.ReflectedType.Name);
+                }
 
             Console.ReadKey();
         }
